@@ -1,8 +1,14 @@
-let app = new VTTCue({
-    el: '#app',
-    data: () => {
-        return {
-            count: 0
-        }
+let app = new Vue({
+  el: '#app',
+  data: () => {
+    return {
+      color: 0
     }
+  },
+  methods: {
+    changeColor: () => {
+      console.log('change')
+      app.color++
+    }
+  },
 })

@@ -4,3 +4,6 @@
 .green {
     background-color: greenyellow;
 }
+.trans-25s {
+    transition: all .25s;
+}
